@@ -57,7 +57,7 @@ python train.py \
 
 ## Project Structure
 ```
-SCM_GNN_Forecasting/
+GRAPHINE/
 ├── data/
 │   ├── Edges(Plant)-Uniques.csv
 │   ├── NOdeFeatures.csv
