@@ -91,10 +91,16 @@ GRAPHINE/
 
 ## Citation
 ```
-@misc{GRAPHINE2025
-      title={Enhancing Spatiotemporal Supply Chain Forecasting Using Virtual Node-Augmented Graph Diffusion for Improved Fuel Efficiency}, 
-      author={Azmine Toushik Wasi and Mahfuz Ahmed Anik and MD Shafikul Islam and Mohamed Kamel Hadj-Kali},
-      year={2025},
-      url={https://github.com/AI4CHEMIA/GRAPHINE}, 
+@article{GRAPHINE2025,
+  author  = {Alshehri, Abdulelah S. and Wasi, Azmine Toushik and Anik, Mahfuz Ahmed and Islam, MD Shafikul and Hadj-Kali, Mohamed Kamel},
+  title   = {GRAPHINE: Enhancing Spatiotemporal Supply Chain Forecasting Using Virtual Node-Augmented Graph Diffusion for Improved Fuel Efficiency},
+  journal = {SUBMITTED to International Journal of Production Research},
+  year    = {2025},
+  volume  = {},
+  number  = {},
+  pages   = {},
+  doi     = {},
+  url     = {https://github.com/AI4CHEMIA/GRAPHINE},
 }
+
 ```
