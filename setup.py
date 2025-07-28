@@ -7,15 +7,15 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
     requirements = [line.strip() for line in fh if line.strip() and not line.startswith("#")]
 
 setup(
-    name="scm-gnn-forecasting",
+    name="GRAPHINE",
     version="0.1.0",
-    author="SCM GNN Team",
-    description="Supply Chain Management Graph Neural Network for Forecasting",
+    author="AI4CHEMIA",
+    description="GRAPHINE : Enhancing Spatiotemporal Supply Chain Forecasting Using Virtual Node-Augmented Graph Diffusion for Improved Fuel Efficiency",
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=find_packages(),
     classifiers=[
-        "Development Status :: 3 - Alpha",
+        "Development Status :: v1",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
