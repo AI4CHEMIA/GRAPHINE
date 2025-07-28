@@ -10,7 +10,7 @@ from tqdm import tqdm
 import pandas as pd
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score, max_error, explained_variance_score
 
-def train_model(model, train_dataset, test_dataset, epochs=200, learning_rate=0.01, sampling_percentage=1.0, filename_prefix="trial"):
+def train_model(model, train_dataset, test_dataset, epochs=200, learning_rate=0.01, sampling_percentage=1.0, filename_prefix=None):
     optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
     train_logs = []
 
@@ -167,7 +167,7 @@ def main():
         epochs=args.epochs, 
         learning_rate=args.learning_rate,
         sampling_percentage=args.sampling_percentage,
-        filename_prefix=filename_prefix
+        filename_prefix=args.tag
     )
 
     torch.save(trained_model.state_dict(), args.model_save_path)

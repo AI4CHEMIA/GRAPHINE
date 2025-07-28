@@ -51,7 +51,9 @@ python train.py \
   --hidden_dim 32 \
   --v_node_weight 0.1 \
   --train_ratio 0.8 \
-  --model_save_path models/trained_model.pth
+  --sampling_percentage 0.6 \
+  --model_save_path models/trained_model.pth \
+  --tag GRAPHINE_Trial
 ```
 
 
