@@ -93,16 +93,35 @@ GRAPHINE/
 
 ## Citation
 ```
-@article{GRAPHINE2025,
-  author  = {Alshehri, Abdulelah S. and Wasi, Azmine Toushik and Anik, Mahfuz Ahmed and Islam, MD Shafikul and Hadj-Kali, Mohamed Kamel},
-  title   = {GRAPHINE: Enhancing Spatiotemporal Supply Chain Forecasting Using Virtual Node-Augmented Graph Diffusion for Improved Fuel Efficiency},
-  journal = {SUBMITTED to International Journal of Production Research},
-  year    = {2025},
-  volume  = {},
-  number  = {},
-  pages   = {},
-  doi     = {},
-  url     = {https://github.com/AI4CHEMIA/GRAPHINE},
+@article{Alshehri09062026,
+author = {Abdulelah S. Alshehri and Azmine Toushik Wasi and Mahfuz Ahmed Anik and MD Shafikul Islam and Mohamed Kamel Hadj-Kali},
+title = {GRAPHINE: enhancing spatiotemporal supply chain forecasting using virtual node-augmented graph diffusion for improved fuel efficiency},
+journal = {International Journal of Production Research},
+volume = {0},
+number = {0},
+pages = {1--26},
+year = {2026},
+publisher = {Taylor \& Francis},
+doi = {10.1080/00207543.2026.2685179},
+
+
+URL = { 
+    
+        https://doi.org/10.1080/00207543.2026.2685179
+    
+    
+
+},
+eprint = { 
+    
+        https://doi.org/10.1080/00207543.2026.2685179
+    
+    
+
 }
+,
+    abstract = { Spatiotemporal forecasting in supply chain networks demands modelling complex spatial dependencies and nonlinear temporal dynamics. Traditional models often fail to capture the heterogeneity, structural sparsity, and long-term dependencies of real-world supply chains. To address this, we propose GRAPHINE, a Virtual Node Diffusion-Convolutional Recurrent Neural Network tailored for supply chain forecasting. GRAPHINE leverages diffusion-based learning, using bidirectional random walks to model spatial relations and a recurrent encoder-decoder with scheduled sampling to capture temporal patterns. It introduces virtual nodes to aggregate global context and applies a learnable gating mechanism that allows each node to regulate global influence based on local features, preventing oversmoothing and preserving specificity. Evaluated on the SCG dataset for demand and inventory forecasting, GRAPHINE achieves reductions of 38.71\% in MSE and of 21.71\% in RMSE over state-of-the-art baselines, which may imply potential reductions in fuel use on the order of 5.3\% in scenario-specific settings under commonly used elasticity assumptions in logistics planning. GRAPHINE thus establishes a new decision-aid framework for applying advanced spatiotemporal graph neural architectures to complex production and supply chain problems, with tangible implications for production planning, operational cost efficiency, and environmental sustainability. }
+}
+
 
 ```
